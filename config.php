@@ -7,7 +7,7 @@ if(ENVIRONMENT == 'development') {
 	$config['dbname'] = 'classificados';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
-	$config['dbpass'] = '';
+	$config['dbpass'] = 'root';
 } else {
 	define("BASE_URL", "http://meusite.com.br/");
 	$config['dbname'] = 'classificados';
